@@ -1,7 +1,5 @@
 title: 美艺空间
-description: 美艺空间
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: ':title/'
 
 # Comments
 discus_identifier: mr-brown
