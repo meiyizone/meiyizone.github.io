@@ -1,38 +1,26 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+<footer class="footer">
+  <div class="footer-social">
+    <ul class="social-icons">
+      {% if site.twitter_url %}
+      <li><a href="{{ site.twitter_url }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.facebook_url %}
+      <li><a href="{{ site.facebook_url }}"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.googleplus_url %}
+      <li><a href="{{ site.googleplus_url }}"><i class="fa fa-google-plus-square" aria-hidden="true"></i>
+</a></li>
+      {% endif %}
+      {% if site.instagram_url %}
+      <li><a href="{{ site.instagram_url }}"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      {% endif %}
+      {% if site.github_url %}
+      <li><a href="{{ site.github_url }}"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+      {% endif %}
+    </ul>
+    <ul class="copyright">
+      <li>2017 @ 美艺空间</li>
+    </ul>
   </div>
-
+  <div class="footer-newsletter"></div>
 </footer>
