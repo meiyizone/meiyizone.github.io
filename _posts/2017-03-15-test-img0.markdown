@@ -1,9 +1,0 @@
----
-layout: post
-title:  "美艺空间手工饰品1"
-description: 美艺空间手工饰品1
-date: 2017-03-15
-img: ornament1.jpg
-author: Xiaomeng
----
-美艺空间手工饰品1
